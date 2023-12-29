@@ -1,59 +1,169 @@
 
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.flex-container {display:flex;
-background color: }
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-header {background-color: #0b5394;
-  padding: 30px;
+/* Header styles */
+header {
   text-align: center;
-color: #3381c8;}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #a8d1f6;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #3381c8;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0c3357;
   background-color: #0b5394;
-  color: #3381c8;
+  font-size: 1.5em;
+  border-radius: 30px;
 }
 
-/* Create 2 equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-  }
-  
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0c3357;
+  background-color: #0b5394;
+  font-size: 1.5em;
+  border-radius: 30px;
+}
 
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width:600px) {.column {width: 100% }}
+/* Navigation styles */
+.topnav li {
+  list-style-type: none;
+  display: inline;
+  padding: 1em;
+  margin: 1em;
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20px;
+}
 
-html{background-color:#e7dfc9}
+.topnav ul {
+  text-align: center;
+  background-color: #CCB69B;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 30px;
+}
 
-  </style>
- 
+.topnav a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav a:hover {
+  color: #0c3357;
+  font-weight: bold;
+  background-color: #F7F3E3;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* hobbies-list styles*/
+
+.hobbies-list ul {
+  list-style-type: circle;
+color:#0b5394
+}
+
+
+/* Main content styles */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Add space between containers */
+  flex-wrap: wrap; /* Allow for wrapping */
+}
+
+h1 {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+p {
+  margin: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 20px;
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #011638;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 30px;
+  width: 100%; /* Adjust width */
+  text-align: center;
+  padding: 20px;
+}
+.flex-item1{
+  width:60%;
+
+}
+.flex-item1 h1 {
+  line-height: 75px;
+  font-size: 2em; /* Adjust font size */
+}
+
+.flex-item1 p {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+
+.flex-item2 {
+  height: auto;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: green;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  width:40%;
+  border-radius: 30px;
+}
+
+
+ol{
+  list-style: circle;
+  padding-left: 20px;
+  font-size: 20px;
+  color:white;
+}
+
+.flex-container2 {
+  height: auto;
+  background-color: #CCB69B;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+.footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+bottom: 0;
+width: 100%;
+  color: #0c3357;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  height: 1.5rem;
+}
+
+</style>
+
+<div class="footer">
+<p>Footer</p>
+</div>
+
+#page-container {
+  position: relative;
+  min-height: 130vh;
+}
+
+html {
+  background-color: #5eadf3;
+}

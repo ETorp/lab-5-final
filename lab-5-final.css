@@ -9,7 +9,7 @@ html{background-color:#0b5394;}
 
 header{padding:35px;
 text-align:center;
-   font-family:'Courier New', Courier, monospace;
+font-family:'Courier New', Courier, monospace;
 background-color:#0b5394;
 color:#0c3357;
 }
@@ -23,7 +23,7 @@ color:#0c3357;
   float: left;
   display: block;
   color: #f2f2f2;
-   font-family:'Courier New', Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
   text-align: center;
   padding: 15px 16px;
   text-decoration: none;}
@@ -43,7 +43,7 @@ li{
 .topnav a:hover {
   background-color: #F7F3E3;
   color:#0c3357;
-   font-family:'Courier New', Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
 border-radius:20px;}
 
 #flex-item1{
@@ -62,7 +62,7 @@ text-align: center;
 background-color:#CCB69B;
 font-size:25px;
 color:white;
-   font-family:'Courier New', Courier, monospace;
+font-family:'Courier New', Courier, monospace;
 border-radius:20px;
 }
 
